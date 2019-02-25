@@ -38,4 +38,4 @@ RUN set -e -u -x \
 COPY --from=drive /go/bin/drive /usr/local/bin/drive
 
 #"dumb-entrypoint"
-ENTRYPOINT [ "/bin/bash" ]
+ENTRYPOINT [ "/bin/sh" ]
