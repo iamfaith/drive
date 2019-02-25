@@ -2,4 +2,4 @@
 set -e -u -x
 cd "$(dirname "$0")"/../src
 
-docker build --tag "${IMAGE:-timonier/drive}":"${TAG:-latest}" .
+docker build --tag "${IMAGE:-xianzixiang/drive}":"${TAG:-latest}" .
