@@ -16,7 +16,7 @@ RUN set -e -u -x \
 FROM alpine:latest
 
 LABEL \
-    maintainer="Morgan Auchede <morgan.auchede@gmail.com>"
+    maintainer="faith"
 
 RUN set -e -u -x \
 \
